@@ -1,5 +1,5 @@
 # k8s-voting-app overview
-My k8s project for implementing the infamous example voting app in GKE and Kubernetes. This is a simple distributed application running across multiple Docker containers orchestrated and administered with GKE.
+My k8s project for implementing the example voting app in GKE and Kubernetes. This is a simple distributed application running across multiple Docker containers orchestrated and administered with GKE.
 
 # Purpose 
 The purpose of this project is to deploy a voting app and results app using kubernetes and GCP/GKE. Participants will access the voting platform through a front-end web app 
