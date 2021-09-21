@@ -1,8 +1,17 @@
 # k8s-voting-app overview
-My k8s project for implementing the example voting app in GKE and Kubernetes. This is a simple distributed application running across multiple Docker containers orchestrated and administered with GKE.
+My k8s project for implementing the example voting app in GKE and Kubernetes. This is a simple distributed application running across multiple Docker containers orchestrated and administered with GKE. 
+
+# Tools Used
+- RubyMine - Ruby on Rails IDE for scripting out each application
+- GitHub - Git repo to store container images and apps
+- GCP - Gcloud platform used to spin up clusters/VMs and set IAM and firewall policies among other config options 
+- GKE - Kubernetes engine inside GCP for container/cluster orchestration
+
+
+
 
 # Purpose 
-The purpose of this project is to deploy a voting app and results app using kubernetes and GCP/GKE. Participants will access the voting platform through a front-end web app 
+The purpose of this project is to deploy a voting app and results app using kubernetes and GCP/GKE. Participants will access the voting platform through a front-end web app and vote "Cats vs. Dogs". The results will be displayed in the 
 
 See original example-voting-app link here for in-depth details on app architecture : https://github.com/dockersamples/example-voting-app
 
